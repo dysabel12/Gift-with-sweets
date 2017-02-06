@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gift"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mis regalos" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_assess"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Valóranos" />
+    </group>
+
+    <item android:title="Comunícate">
+        <menu>
+            <item
+                android:id="@+id/nav_comment"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Enviar comentarios" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contáctanos" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Invita amigos" />
+        </menu>
+    </item>
+
+</menu>
